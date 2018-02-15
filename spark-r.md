@@ -14,57 +14,17 @@ A typical example would be where there's a large amount of initial data which ne
 
 **SparkR can do this across multiple nodes in a cluster, improving performance by several orders of magnitude.** When the raw data is very large, and the user wants to apply a number of features to the whole dataset, and so a distributed machine learning algorithm is needed. R cannot do this, but SparkR comes with a machine learning library and Spark operates in a distributed environment, so large scaled machine learning is now possible with R.
 
+So, **what features does SparkR have**? We've already talked about the** scalability with many machines and many cores**, operations **being executed on SparkR dataframes get automatically distributed across all the cores in the cluster.** As a result of all of this, **SparkR dataframes can be used on terabytes of data**, and run on clusters of thousands of machines. 
 
+Another benefit is the dataframes **optimizations**. SparkR dataframes inherit all the optimizations made to the computation engine in terms of code, generation, and memory management. Then there are all the **data sources API**s, by tying into Sparks' SQL data sources API, SparkR can read in from a variety of sources including Hive tables, JSON files, packet files, etc. 
 
+Then we have the RDDs as **distributed** lists. SparkR exposes the RDD API's of Spark as a distributed list in R. For example we can read an input file in HDFS and process every line using lapply on an RDD. In addition to lapply, **SparkR also allows closures to be appplied on every partition using lapply with partition.** But the supported RDD functions include operations like reduce, reduce by key, group by key, and collect. Then there's the **serializing **the closures. SparkR automatically serializes the necessary variables to execute the function on the cluster. For example, if we use some global variables in a function passed to lapply, SparkR will automatically capture these variables and copy them to the cluster. In addition, **we can use existing R packages**. SparkR also allows easy use of existing R packages inside closures. 
 
+The include package command can be used to indicate packages that should be loaded before every closures executed on the cluster. 
 
+Now **we are going to look at how we interface with SparkR**. There are **several ways to interface with SparkR.** **You can interface through the Spark shell, you can interface through the SparkR shell, the difference between the two being that the SparkR shell has the SQLContext and SparkContext already created for you**. 
 
-
-So, what features does SparkR have? We've already talked about the scalability with
-
-many machines and many cores, operations being executed on SparkR dataframes get automatically
-
-distributed across all the cores in the cluster. As a result of all of this, SparkR dataframes
-
-can be used on terabytes of data, and run on clusters of thousands of machines. Another
-
-benefit is the dataframes optimizations. SparkR dataframes inherit all the optimizations made
-
-to the computation engine in terms of code, generation, and memory management. Then there
-
-are all the data sources APIs, by tying into Sparks' SQL data sources API, SparkR can read
-
-in from a variety of sources including Hive tables, JSON files, packet files, etc. Then
-
-we have the RDDs as distributed lists. SparkR exposes the RDD API's of Spark as a distributed
-
-list in R. For example we can read an input file in HDFS and process every line using
-
-lapply on an RDD. In addition to lapply, SparkR also allows closures to be appplied
-
-on every partition using lapply with partition. But the supported RDD functions include operations
-
-like reduce, reduce by key, group by key, and collect. Then there's the serializing
-
-the closures. SparkR automatically serializes the necessary variables to execute the function
-
-on the cluster. For example, if we use some global variables in a function passed to
-
-lapply, SparkR will automatically capture these variables and copy them to the cluster. In
-
-addition, we can use existing R packages. SparkR also allows easy use of existing R
-
-packages inside closures. The include package command can be used to indicate packages that
-
-should be loaded before every closures executed on the cluster. Now we are going to look at
-
-how we interface with SparkR. There are several ways to interface with SparkR. You can interface
-
-through the Spark shell, you can interface through the SparkR shell, the difference between
-
-the two being that the SparkR shell has the SQLContext and SparkContext already created
-
-for you. You can use Rstudio, which is an integrated development environment. You can
+You can use Rstudio, which is an integrated development environment. You can
 
 use notebooks and a notebook gives you an interactive web-based editor, which you can
 
@@ -137,6 +97,4 @@ of which API or language you are using to express the computation. This unificat
 means that developers can easily switch back and forth between the various, based upon
 
 which one provides the most natural way to express a given transformation.
-
-
 
