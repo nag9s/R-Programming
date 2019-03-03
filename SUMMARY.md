@@ -5,4 +5,5 @@
   * [Why use SparkR](spark-r/why-use-sparkr.md)
   * [Features](spark-r/features.md)
 * [R Studio](r-studio.md)
+  * [keyboard shortcut keys](r-studio/keyboard-shortcut-keys.md)
 
