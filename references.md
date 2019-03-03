@@ -16,6 +16,7 @@ Books
 | Beginning R | 2.8 |  |
 | R For Dummies | 2.13 |  |
 | **Advanced  R ** |  | 2015 |
+| R Quick Syntax Reference-Apress  |  | 2014 |
 
 
 
