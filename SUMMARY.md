@@ -9,4 +9,5 @@
 * [References](references.md)
 * [Getting Help](getting-help.md)
 * [Vocabulary](vocabulary.md)
+* [Operator Syntax and Precedence](operator-syntax-and-precedence.md)
 
