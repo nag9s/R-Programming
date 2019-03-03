@@ -7,4 +7,5 @@
 * [R Studio](r-studio.md)
   * [keyboard shortcut keys](r-studio/keyboard-shortcut-keys.md)
 * [References](references.md)
+* [Getting Help](getting-help.md)
 
