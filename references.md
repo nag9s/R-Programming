@@ -1,12 +1,8 @@
 Books
 
-
-
-
-
-| R In Nutshell | 2.5 |
-| :--- | :--- |
-|  |  |
+| **R In Nutshell** | 2.15 |  |
+| :--- | :--- | :--- |
+| Learning R |  | 2013 |
 
 
 
