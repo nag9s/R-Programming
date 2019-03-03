@@ -9,6 +9,12 @@ Books
 | **R In 24 hours** | 3.2.2 | 2016 |
 | Introduction to R | 2.7 | 2010 |
 | Testing R |  | 2017 |
+| 25 receipes for getting started R  |  | 2011 |
+| A Beginners Guide to R | 2.7.1 |  |
+| A Practical Guide to Using R RStudio |  | 2017 |
+| An-Introduction-to-Statistical-Learning-with-Applications-in-R |  | 2014 |
+| Beginning R | 2.8 |  |
+| R For Dummies  | 2.13 |  |
 
 
 
