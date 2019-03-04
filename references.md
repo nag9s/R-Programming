@@ -19,7 +19,10 @@ Books
 | R Quick Syntax Reference-Apress |  | 2014 |
 | R Recipes\_ A Problem-Solution Approach-Apress \(2014\) | 3.1 | 2014 |
 | R-for-Data-Science-Import-Tidy-Transform-Visualize-and-Model-Data | 3.3.1 | 2017 |
+| RStudio for R Statistical Computing Cookbook\_ Over 50 practical |  | 2016 |
 | RNotesForProfessionals | 3.3.2 | 2017 |
+| The Book of R\_ A First Course in Programming and Statistics-No Starch Press \(2016\) | 3.2.2 | 2016 |
+| The R Book |  |  |
 
 
 
