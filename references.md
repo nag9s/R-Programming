@@ -16,7 +16,10 @@ Books
 | Beginning R | 2.8 |  |
 | R For Dummies | 2.13 |  |
 | **Advanced  R ** |  | 2015 |
-| R Quick Syntax Reference-Apress  |  | 2014 |
+| R Quick Syntax Reference-Apress |  | 2014 |
+| R Recipes\_ A Problem-Solution Approach-Apress \(2014\) | 3.1 | 2014 |
+| R-for-Data-Science-Import-Tidy-Transform-Visualize-and-Model-Data | 3.3.1 | 2017 |
+| RNotesForProfessionals | 3.3.2 | 2017 |
 
 
 
