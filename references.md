@@ -13,7 +13,7 @@ Books
 | A Beginners Guide to R | 2.7.1 |  |
 | A Practical Guide to Using R RStudio |  | 2017 |
 | An-Introduction-to-Statistical-Learning-with-Applications-in-R |  | 2014 |
-| Beginning R | 2.8 |  |
+| Beginning R | 2.8 | 2012 |
 | R For Dummies | 2.13 |  |
 | **Advanced  R ** |  | 2015 |
 | R Quick Syntax Reference-Apress |  | 2014 |
@@ -22,7 +22,10 @@ Books
 | RStudio for R Statistical Computing Cookbook\_ Over 50 practical |  | 2016 |
 | RNotesForProfessionals | 3.3.2 | 2017 |
 | The Book of R\_ A First Course in Programming and Statistics-No Starch Press \(2016\) | 3.2.2 | 2016 |
-| The R Book |  |  |
+| The R Book |  | 2007 |
+| The-Art-of-R-Programming-A-Tour-of-Statistical-Software-Design | 2.10 | 2011 |
+| Thomas Mailund - Beginning Data Science in R\_ Data Analysis, Visualization, and Modelling for the Data Scientist-Apress \(2017\) |  | 2017 |
+| Using-R-and-RStudio-for-Data-Management-Statistical-Analysis-and-Graphics |  | 2015 |
 
 
 
