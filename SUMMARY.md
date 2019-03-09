@@ -10,4 +10,5 @@
 * [Getting Help](getting-help.md)
 * [Vocabulary](vocabulary.md)
 * [Operator Syntax and Precedence](operator-syntax-and-precedence.md)
+* [Designing   Interactive  Course](designing-interactive-course.md)
 
