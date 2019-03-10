@@ -16,4 +16,6 @@
   * [call by reference](functions/call-by-reference.md)
 * [Exception Handling](exception-handling.md)
 * [attach  function](attach-function.md)
+* [Environments and Scoping](environments-and-scoping.md)
+* [Original R Lang Reference](original-r-lang-reference.md)
 
