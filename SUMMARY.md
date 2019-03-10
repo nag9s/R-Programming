@@ -15,4 +15,5 @@
   * [Masked Functions](functions/masked-functions.md)
   * [call by reference](functions/call-by-reference.md)
 * [Exception Handling](exception-handling.md)
+* attach  function
 
