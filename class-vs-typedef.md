@@ -6,3 +6,11 @@ pg 99 attributes
 
 ![](/assets/import1.png)
 
+
+
+[https://stat.ethz.ch/R-manual/R-devel/doc/manual/R-lang.html\#Objects](https://stat.ethz.ch/R-manual/R-devel/doc/manual/R-lang.html#Objects)
+
+
+
+![](/assets/import4.png)
+
