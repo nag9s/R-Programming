@@ -18,4 +18,5 @@
 * [attach  function](attach-function.md)
 * [Environments and Scoping](environments-and-scoping.md)
 * [Original R Lang Reference](original-r-lang-reference.md)
+* [Class Vs typedef](class-vs-typedef.md)
 
